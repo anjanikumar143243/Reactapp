@@ -13,7 +13,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://anjanikumarseera:Loveyoumom143@cluster0.mgnws.mongodb.net/Tiffinservice?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-});
+})
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.log('MongoDB connection error:', err));
 
